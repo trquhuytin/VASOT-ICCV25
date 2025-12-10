@@ -1,11 +1,20 @@
-# Video Alignment and Segmentation Optimal Transport (VASOT)
+# [Joint Self-Supervised Video Alignment and Action Segmentation (ICCV 2025)](https://arxiv.org/abs/2503.16832)
 
-### Unsupervised learning pipeline
+This repository contains our VASOT model for action segmentation only.
 
-Our unsupervised pipeline uses representation learning. A frame-wise feature extractor (MLP) is learned using pseudo-labels generated per batch to sgement actions and align 2 videos than using combined loss to optimize this joint model.
+If you use the code, please cite our paper:
+```
+@inproceedings{ali2025joint,
+  title={Joint Self-Supervised Video Alignment and Action Segmentation},
+  author={Ali, Ali Shah and Mahmood, Syed Ahmed and Saeed, Mubin and Konin, Andrey and Zia, M Zeeshan and Tran, Quoc-Huy},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  year={2025}
+}
+```
+
+For our recent works, please check out our research page (https://retrocausal.ai/research/).
 
 # Using the Code
-
 
 ## Run Unsupervised Learning Experiments
 
